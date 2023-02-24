@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: lightgrey;
+    height: 80px;
+    font-size: 20px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+nav>a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+nav>a:hover {
+    color: green;
+}
+
+main {
+    padding: 40px 20px;
+    margin-top: 80px;
+}
+
+.about {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.about img {
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-descr {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-descr * {
+    padding: 5px;
+}
+
+.choose_block h2 {
+    font-size: 24px;
+}
+
+.choose_block p {
+    margin: 20px 0 20px;
+    font-size: 20px;
+}
+
+.choose_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.choose_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+
+.choose_block-container>div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cd9cf5;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.choosed_element {
+    border: 3px solid #8b00fd;
+}
+
+.my_game {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 40px 0 40px 0;
+    font-size: 16px;
+}
+
+.my_game h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my_game p {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.my_game .answer {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: lightgrey;
+}
+
+.my_game .start {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7cf0cb;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.posts_block {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.posts_block h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.posts_block-container>* {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.posts_block-container h3 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}

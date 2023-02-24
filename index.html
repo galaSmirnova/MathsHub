@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntenseJS</title>
+    <link
+      rel="icon"
+      href="https://w7.pngwing.com/pngs/269/895/png-transparent-google-logo-photos-new-google-new-logos-icon-thumbnail.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#">About us</a>
+        <a href="#posts_block">Hobby</a>
+        <a href="#">Contacts</a>
+      </nav>
+    </header>
+    <main>
+      <div class="about">
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1480406266260-49c193257b6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+            alt="girl with sunflower"
+          />
+        </div>
+
+        <div class="about-descr">
+          <p>
+            <strong>Имя</strong>
+            <span class="name">Галина</span>
+          </p>
+          <p>
+            <strong>Изучаемый язык:</strong>
+            <span id="skill">JavaScript</span>
+          </p>
+          <p>
+            <strong>Hobby</strong>
+          </p>
+        </div>
+      </div>
+
+      <div class="choose_block">
+        <h2>Выберите елементы</h2>
+        <p>Эдементов выбрано: <span>0</span></p>
+        <div class="choose_block-container">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+          <div>12</div>
+        </div>
+      </div>
+
+      <div class="my_game" id="my_game">
+        <h2>Play game</h2>
+        <p hidden></p>
+        <input type="number" class="answer" id="answer" hidden />
+        <button class="start" id="start">Начать</button>
+      </div>
+      <div class="posts_block" id="posts_block">
+        <h2>Блог</h2>
+        <!-- <button>Создать посты</button> -->
+        <div class="posts_block-container">
+          <!-- <p>
+              <h3></h3>
+              <span></span>
+            </p> -->
+        </div>
+      </div>
+    </main>
+
+    <footer>2023</footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
